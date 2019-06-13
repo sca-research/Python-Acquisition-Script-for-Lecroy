@@ -1,1 +1,2 @@
 # Trace-Acquisition-for-Lecroy
+This is a set of useful python scripts aims at capturing power traces with our Lecroy scope. Acquisition.py communicates with the scope through the LAN connection, send/receive crypto data from the serial ports, setup trace acquisition and load back traces from the scope. TRS_TraceSet.py writes the traces into the output Riscure TRS file. Setup.py only does the crypto data send/receive part, which can be useful when you tried to figure out the appropriate acquisition setups.  
